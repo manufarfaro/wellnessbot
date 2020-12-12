@@ -16,13 +16,13 @@ const goBackQuotes =
 const timeToComeBack = 300000;
 
 const rest = (req, res) => {
-    const randonIndex = Math.Floor(Math.random * (0, quotes.length));
+    const randonIndex = Math.floor(Math.random * (0, quotes.length));
     res.send({
       response_type: "ephemeral",  
       text: quotes[randonIndex]
     });
     setTimeout(() => {
-        randonIndex = Math.Floor(Math.random * (0, goBackQuotes.length));
+        randonIndex = Math.floor(Math.random * (0, goBackQuotes.length));
         res.send({
             response_type: "ephemeral", 
             text: goBackQuotes[randonIndex]

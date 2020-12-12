@@ -17,7 +17,7 @@ const quotes =
 ];
 
 const awita = (req, res) => {
-    const randonIndex = Math.Floor(Math.random * (0, quotes.length));
+    const randonIndex = Math.floor(Math.random * (0, quotes.length));
     res.send({
         response_type: "ephemeral", //ephemeral to return the message to the requested user
         text: quotes[randonIndex]
