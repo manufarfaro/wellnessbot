@@ -1,0 +1,22 @@
+{
+  "name": "wellnessbot",
+  "version": "1.0.0",
+  "description": "A.K.A. AwitaBOT - a Slack wellness bot with useful commands to drive your day in a healthy way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manufarfaro/wellnessbot.git"
+  },
+  "keywords": [
+    "wellness"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manufarfaro/wellnessbot/issues"
+  },
+  "homepage": "https://github.com/manufarfaro/wellnessbot#readme"
+}
