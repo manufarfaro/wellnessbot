@@ -43,7 +43,8 @@ const stretch = (req, res) => {
 			alt_text: "image"
 		}
 	]
-    });
+	});
+	console.log(`[AWITABOT] called stretch ${stretchQuotes[randonIndex].name}`)
   };
 
 module.exports = stretch;
