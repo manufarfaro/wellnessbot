@@ -47,25 +47,25 @@ const source = {
             name: 'Elongation for hands',
             description: 'To prevent muscle contraction and joint strain after hours of writing, a practical exercise is to spread the fingers of the hands and hold possession for ten seconds. Repeat at least three times. ' ,
             extra: '',
-            img: base_url+'stretch_busy.jpg'
+            img: base_url+'stretch_exercices.png'
         },
         {
             name: 'Neck and shoulder stretch',
             description: 'When sitting in the same position for a good stretch of the morning, the neck and shoulders are the first to suffer. Raising the arms and bringing them towards the nape of the neck so that they are aligned with the ears will stretch the stiff muscles The position must be held for three to five seconds, being repeated a maximum of five times. ',
             extra: '',
-            img: base_url+'stretch_busy.jpg'
+            img: base_url+'stretch_exercices_2.jpg'
         },
         {
             name: 'Back and shoulder stretch',
             description: 'Every morning at the beginning of a new day, the back is stretched after hours of rest, but at the moment of stepping on the working floor it begins to stoop. To avoid stiffness, an excellent alternative is to clasp the hands behind the head with the elbows to the sides and push the shoulders back. Holding the position for eight to ten seconds will benefit the stretch. ',
             extra: '',
-            img: base_url+'stretch_busy.jpg'
+            img: base_url+'stretch_exercices.png'
         },
         {
             name: 'Neck elongation',
             description: 'Maintaining the same position of the neck and back in the chair causes tension, the best way to release it is to turn the neck to the side, always over the shoulder, as if you wanted to turn to look behind. Do it two or three times lasting ten seconds will promote relaxation in the muscle area. ',
             extra: '',
-            img: base_url+'stretch_busy.jpg'
+            img: base_url+'stretch_exercices_2.jpg'
         },
         {
             name: 'STOP',

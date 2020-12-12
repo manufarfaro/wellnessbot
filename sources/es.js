@@ -27,7 +27,7 @@ const source = {
         { name: 'Pera', img: base_url+'pear.png', magic: 'es muy fácil de digerir, ya que es un 80% agua. Además tiene una gran riqueza de azucares y por eso es muy dulce y es rica en antioxidantes que retrasan el envejecimiento de las células. Es rica en vitaminas B y C, y en potasio, hierro, calcio y yodo, entre otros.'},
         { name: 'Kiwi', img: base_url+'kiwi.png', magic: 'es rico en vitamina C, ayuda a amortiguar el envejecimiento, regula el coresterol y azucar en sangre.'},
         { name: 'Manzana verde', img: base_url+'green_apple.png', magic: 'es rica en potasio y fibra, lo que auyda a generar saciedad. Además ayuda con el control de la presión arterial y colesterol.'},
-        { name: 'Banana', img: base_url+'banana.png', magic: 'es rica en potasio, genera saciedad y yuda a mejorar el estado de ánimo, ya que aporta triptófano que luego se transforma en serotonina.'},
+        { name: 'Banana', img: base_url+'banana.png', magic: 'es rica en potasio, genera saciedad y ayuda a mejorar el estado de ánimo, ya que aporta triptófano que luego se transforma en serotonina.'},
         { name: 'Naranjas', img: base_url+'orange.png', magic: 'son naranjas. No es necesario decir más.'}
     ],
     restQuotes : [
@@ -44,7 +44,7 @@ const source = {
             name: 'Elongación para manos' , 
             description: 'Para prevenir la contracción de los músculos y tensión en las articulaciones tras horas de escribir, un ejercicio práctico es extender los dedos de las manos y mantener la posesión durante diez segundos. Repetir al menos tres veces.' ,
             extra: 'https://www.youtube.com/watch?v=XY8nDWNefq4',
-            img: base_url+'stretch_exercices.jpg'
+            img: base_url+'stretch_exercices.png'
         },
         {
             name: 'Estiramiento de cuello y hombro',
@@ -56,7 +56,7 @@ const source = {
             name: 'Estiramiento de espalda y hombros',
             description: 'Cada mañana al comenzar un nuevo día, la espalda está estirada tras horas de descanso, pero al momento de pisar suelo laboral empieza a encorvarse. Para evitar el agarrotamiento, una excelente alternativa es entrelazar las manos detrás de la cabeza con los codos a los lados y empujar los hombros hacia atrás. Mantener la posición durante ocho a diez segundos beneficiará la elongación.',
             extra: 'https://www.youtube.com/watch?v=XY8nDWNefq4',
-            img: base_url+'stretch_exercices.jpg'
+            img: base_url+'stretch_exercices.png'
         },
         {
             name: 'Elongación para cuello',
