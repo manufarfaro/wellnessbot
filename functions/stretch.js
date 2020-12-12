@@ -44,7 +44,6 @@ const stretch = (req, res) => {
 		}
 	]
 	});
-	console.log(`[AWITABOT] called stretch ${stretchQuotes[randonIndex].name}`)
   };
 
 module.exports = stretch;
