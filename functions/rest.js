@@ -1,31 +1,24 @@
 // rest - cada una hora mandar a caminar, desp de 5 min a trabajar esclavo
 
-const quotes = 
-[
-    'Sabés cuando sería un buen momento para levantarte de la silla ? Ahora.',
-    'Sería un buen momento para estirar las piernas.',
-    'Si todavía no te acalambraste de estar sentado, estás a tiempo de pararte un ratito.'
-];
+const lang = require('../sources/config');
+const source = require(lang.es);
 
-const goBackQuotes = 
-[
-    'Ya sería hora de volver a ejercitar el teclado.',
-    'Hora de volver a ejercitar el cerebro.'
-];
+const { restQuotes } = source;
+const { restOverQuotes } = source;
 
-const timeToComeBack = 300000;
+const timeToComeBack = 10000;
 
 const rest = (req, res) => {
-    const randonIndex = Math.floor(Math.random() * (quotes.length));
+    let randonIndex = Math.floor(Math.random() * (restQuotes.length));
     res.send({
       response_type: "ephemeral",  
-      text: quotes[randonIndex]
+      text: restQuotes[randonIndex]
     });
     setTimeout(() => {
-        randonIndex = Math.floor(Math.random() * (goBackQuotes.length));
+        randonIndex = Math.floor(Math.random() * (restOverQuotes.length));
         res.send({
             response_type: "ephemeral", 
-            text: goBackQuotes[randonIndex]
+            text: restOverQuotes[randonIndex]
           });
     }, timeToComeBack);
   };

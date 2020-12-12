@@ -1,3 +1,6 @@
-const lang = '../source/es';
+const lang = {
+ es: '../sources/es',
+ en: '../sources/en'
+};
 
-module.exports = source;
+module.exports = lang;

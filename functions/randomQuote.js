@@ -1,7 +1,7 @@
 // randomQuote - random pero healthy xD 
 
-const lang = require('../source/config');
-const source = require(lang.path);
+const lang = require('../sources/config');
+const source = require(lang.es);
 
 const { randomQuotes } = source;
 
