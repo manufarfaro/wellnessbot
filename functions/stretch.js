@@ -6,7 +6,7 @@ const quotes =
 ];
 
 const stretch = (req, res) => {
-    const randonIndex = Math.floor(Math.random * (0, quotes.length));
+    const randonIndex = Math.floor(Math.random() * (quotes.length));
     res.send({
       response_type: "ephemeral", //ephemeral para responder a usuario 
       text: quotes[randonIndex],

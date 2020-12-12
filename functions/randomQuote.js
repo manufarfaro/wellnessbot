@@ -8,7 +8,8 @@ const quotes =
 ];
 
 const randomQuote = (req, res) => {
-    const randonIndex = Math.floor(Math.random * (0, quotes.length));
+    const randonIndex = Math.floor(Math.random() * (quotes.length));
+    console.log({ randonIndex, quotes, quote: quotes[randonIndex] });
     res.send({
       response_type: "ephemeral", //ephemeral para responder a usuario 
       text: quotes[randonIndex]
