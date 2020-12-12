@@ -24,7 +24,7 @@ const source = {
     ],
     frutitaQuotes : [
         { name: 'Manzana', img: base_url+'apple.png', magic: 'es rica en antioxidantes, en vitaminas del grupo B (B1, B2 y B6), vitamina C, fósforo, potasio y calcio. Además facilita la digestión de aquellos alimentos que posean un alto contenido en grasas.'},
-        { name: 'Pera', img: base_url+'pea.png', magic: 'es muy fácil de digerir, ya que es un 80% agua. Además tiene una gran riqueza de azucares y por eso es muy dulce y es rica en antioxidantes que retrasan el envejecimiento de las células. Es rica en vitaminas B y C, y en potasio, hierro, calcio y yodo, entre otros.'},
+        { name: 'Pera', img: base_url+'pear.png', magic: 'es muy fácil de digerir, ya que es un 80% agua. Además tiene una gran riqueza de azucares y por eso es muy dulce y es rica en antioxidantes que retrasan el envejecimiento de las células. Es rica en vitaminas B y C, y en potasio, hierro, calcio y yodo, entre otros.'},
         { name: 'Kiwi', img: base_url+'kiwi.png', magic: 'es rico en vitamina C, ayuda a amortiguar el envejecimiento, regula el coresterol y azucar en sangre.'},
         { name: 'Manzana verde', img: base_url+'green_apple.png', magic: 'es rica en potasio y fibra, lo que auyda a generar saciedad. Además ayuda con el control de la presión arterial y colesterol.'},
         { name: 'Banana', img: base_url+'banana.png', magic: 'es rica en potasio, genera saciedad y yuda a mejorar el estado de ánimo, ya que aporta triptófano que luego se transforma en serotonina.'},
