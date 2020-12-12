@@ -14,13 +14,13 @@ const rest = (req, res) => {
       response_type: "ephemeral",  
       text: restQuotes[randonIndex]
     });
-    setTimeout(() => {
+    /* setTimeout(() => {
         randonIndex = Math.floor(Math.random() * (restOverQuotes.length));
         res.send({
             response_type: "ephemeral", 
             text: restOverQuotes[randonIndex]
           });
-    }, timeToComeBack);
+    }, timeToComeBack); */
   };
   
   module.exports = rest;
