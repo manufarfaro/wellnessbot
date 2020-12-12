@@ -44,25 +44,25 @@ const source = {
             name: 'Elongación para manos' , 
             description: 'Para prevenir la contracción de los músculos y tensión en las articulaciones tras horas de escribir, un ejercicio práctico es extender los dedos de las manos y mantener la posesión durante diez segundos. Repetir al menos tres veces.' ,
             extra: 'https://www.youtube.com/watch?v=XY8nDWNefq4',
-            img: base_url+'stretch_excercises.jpg'
+            img: base_url+'stretch_exercices.jpg'
         },
         {
             name: 'Estiramiento de cuello y hombro',
             description: 'Al estar sentado en la misma posición durante un buen trecho de la mañana, el cuello y los hombros son los primeros en resentirlo. Levantar los brazos y llevarlos hacia la nuca de manera que queden alineados a las orejas, estirará los músculos agarrotados. La posición debe mantenerse de tres a cinco segundos, siendo repetida un máximo de cinco veces.',
             extra: 'https://www.youtube.com/watch?v=XY8nDWNefq4',
-            img: base_url+'stretch_excercises_2.jpg'
+            img: base_url+'stretch_exercices_2.jpg'
         },
         {
             name: 'Estiramiento de espalda y hombros',
             description: 'Cada mañana al comenzar un nuevo día, la espalda está estirada tras horas de descanso, pero al momento de pisar suelo laboral empieza a encorvarse. Para evitar el agarrotamiento, una excelente alternativa es entrelazar las manos detrás de la cabeza con los codos a los lados y empujar los hombros hacia atrás. Mantener la posición durante ocho a diez segundos beneficiará la elongación.',
             extra: 'https://www.youtube.com/watch?v=XY8nDWNefq4',
-            img: base_url+'stretch_excercises.jpg'
+            img: base_url+'stretch_exercices.jpg'
         },
         {
             name: 'Elongación para cuello',
             description: 'Mantener la misma posición del cuello y espalda en la silla, ocasiona tensión, la mejor forma de liberarla es girar el cuello a un lado, siempre por encima del hombro, como si se quisiera voltear a ver detrás. Hacerlo dos o tres veces con una duración de diez segundos favorecerá la relajación en la zona muscular.',
             extra: 'https://www.youtube.com/watch?v=XY8nDWNefq4',
-            img: base_url+'stretch_excercises_2.jpg'
+            img: base_url+'stretch_exercices_2.jpg'
         },
         {
             name: 'STOP',
@@ -74,7 +74,7 @@ const source = {
             name: '¿Cómo es tu higiene postural?',
             description: 'Es tiempo de revisar como sentarse bien en el trabajo.',
             extra: 'https://www.youtube.com/watch?v=x5BI-dPT8GI&ab_channel=FisioOnline',
-            img: base_url+'stretch_excercises.jpg'
+            img: base_url+'stretch_busy.jpg'
         }
     ]
 };
